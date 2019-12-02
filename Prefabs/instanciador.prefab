@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2973840882411085942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2973840882411085936}
+  - component: {fileID: 2973840882411085943}
+  - component: {fileID: 2973840882411085937}
+  - component: {fileID: 1818850963919529714}
+  m_Layer: 0
+  m_Name: instanciador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2973840882411085936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2973840882411085942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.78, y: 2.9, z: -12.582152}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2973840882411085943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2973840882411085942}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 28.444645, z: 43.16513}
+  m_Center: {x: 0, y: 0.20684242, z: 14.534771}
+--- !u!114 &2973840882411085937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2973840882411085942}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e713906d124d214ba5b96e0d07c4ff0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inimigo:
+  - {fileID: 4362743790754246930, guid: fc716ff585e4a3d41922a847b85d348d, type: 3}
+  - {fileID: 2823651684505403627, guid: 46b8188846f2a4a4eb217a29fe12a4e9, type: 3}
+  - {fileID: 1341504666545017342, guid: ffbe3130b11ca434ba79ab471cef2b31, type: 3}
+  numinimigos: 100
+  Inimigosrestantes: 0
+  poartcamera: {fileID: 0}
+  seta: {fileID: 0}
+  intanciar1: {fileID: 0}
+  intanciar2: {fileID: 0}
+  intanciar: 1
+  espera: 3
+--- !u!114 &1818850963919529714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2973840882411085942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e815ebff8916f24196ab7207179f311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
